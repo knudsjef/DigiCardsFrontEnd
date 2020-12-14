@@ -1,0 +1,18 @@
+<!-- Main page that redirects to homepage -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"> <!--Use bootstrap for layout-->
+    <meta charset="utf-8">
+    <title>DigiCard</title> <!--Change what title shows up on the tab-->
+    <base href="/"> <!--Set the start page (Reference the app-routing.module path)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>
+      var global = global || window;
+    </script>
+  </head>
+  <body>
+    <app-root></app-root><!--Send the user to the root of the website-->
+  <script src="runtime.js" defer></script><script src="polyfills.js" defer></script><script src="styles.js" defer></script><script src="scripts.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script></body>
+</html>
